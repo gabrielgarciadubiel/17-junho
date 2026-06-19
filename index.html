@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Site Simples e Moderno</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f2a44;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      background: rgba(0,0,0,0.4);
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .hero button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      background: #ff6b6b;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px;
+      background: white;
+    }
+
+    .feature {
+      text-align: center;
+      width: 30%;
+    }
+
+    .feature h3 {
+      margin-top: 10px;
+      color: #1f2a44;
+    }
+
+    .main {
+      background: #ffeaa7;
+      padding: 60px;
+      text-align: center;
+    }
+
+    .main img {
+      width: 70%;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    .secondary {
+      display: flex;
+      gap: 20px;
+      padding: 50px;
+      background: #dfe6e9;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .cta {
+      background: #55efc4;
+      text-align: center;
+      padding: 60px;
+    }
+
+    .cta button {
+      margin-top: 15px;
+      padding: 12px 25px;
+      border: none;
+      background: #2d3436;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #1f2a44;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    button:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+      transition: 0.2s;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>MinhaLanding</h2>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Serviços</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>um design simples e bem bonito</h1>
+    <p>feito com HTML e CSS meio na correria mas ficou dahora kk</p>
+    <button>saiba mais</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>fácil de usar</h3>
+      <p>interface bem simples e intuitiva, qualquer um consegue mexer de boa</p>
+    </div>
+
+    <div class="feature">
+      <h3>design moderno</h3>
+      <p>cores mais suaves e um layout organizado pra ficar mais bonitin</p>
+    </div>
+
+    <div class="feature">
+      <h3>totalmente responsivo</h3>
+      <p>funciona no celular, tablet e pc sem quebrar tudo (ou quase isso kk)</p>
+    </div>
+  </section>
+
+  <section class="main">
+    <h2>conteúdo principal</h2>
+    <p>uma seção principal só pra mostrar como fica um destaque no site</p>
+    <img src="https://images.unsplash.com/photo-1496307653780-42ee777d4833" alt="imagem principal">
+  </section>
+
+  <section class="secondary">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="natureza">
+      <h4>natureza</h4>
+      <p>explorando umas paisagem bem top que dá até vontade de viajar</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="equipe">
+      <h4>equipe</h4>
+      <p>trabalho em equipe é isso aí né, geral junto tentando não dar errado</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>curtiu o projeto?</h2>
+    <p>se quiser chama aí pra gente trocar uma ideia sobre desenvolvimento web</p>
+    <button>falar agora</button>
+  </section>
+
+  <footer>
+    <p>© 2026 - projeto feito por gabriel garcia (eu msm kkk)</p>
+  </footer>
+
+</body>
+</html>
